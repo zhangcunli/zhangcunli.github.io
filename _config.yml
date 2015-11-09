@@ -1,19 +1,42 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+permalink: /:year-:month-:day/:title/
 
-# Site settings
-title: Yurnero Github Blog
-email: zhangcunli8499@126.com
-description: > # this means to ignore newlines until "baseurl:"
-  并非所有流浪者都迷失了自我!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zhangcunli.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  zhangcunli
+highlighter: pygments
+markdown: redcarpet #kramdown  #redcarpet
+redcarpet:
+  extensions: [
+   "no_intra_emphasis"
+   ,"fenced_code_blocks"
+   ,"autolink"
+   ,"tables"
+   ,"strikethrough"
+   ,"superscript"
+   ,"with_toc_data"
+   ,"footnotes"
+   ,"highlight"
+   ,"underline"
+   ,"quote"
+   ,"lax_spacing"
+   ,"prettify"
+#   ,"html_toc"
+  ]
 
-# Build settings
-markdown: kramdown
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: ":num"
+baseurl: ""
+
+encoding: utf-8
+
+
+title: "Yurnero"
+email: "zhangcunli8499@126.com"
+description: "并非所有流浪者都迷失了自我!"
+github_username:  "zhangcunli"
+#swiftype_searchId: "ncwR9a8S9CTx2q9SgsJm"
+swiftype_searchId: "5MicZLzWNxdP9sZAbqgz"
+disqus_shortname: "zhangcunligithubio"
+
+#url: "http://zhangcunli.github.io"
+#imgrepo: "http://zhangcunli.github.io/static/img"
+url: "http://10.10.8.12:4000"
+imgrepo: "http://10.10.8.12:4000/static/img"
