@@ -2,7 +2,6 @@
 
 <http://zhangcunli.github.io/>
 
-在网上 clone 别人的 demo 修改, 本人非前端选手, 纯属瞎弄!
 
 # 必改内容
 
